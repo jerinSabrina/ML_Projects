@@ -16,6 +16,7 @@ This repository serves as a central hub for showcasing my work across supervised
 
 | Project | Domain | Description | Repository |
 | --- | --- | --- | --- |
+| Spam Message Classification | Text Classification | Classify spam and legitimate messages using TF-IDF with Random Forest and SVM models. | [Project](projects/ml-spam-message-classification) |
 | Titanic Survival Prediction | Classification / Prediction | Predict survival outcomes for Titanic passengers using machine learning features. | [Repository](https://github.com/jerinSabrina/titanic_survival_prediction_using-naive_bayes) |
 | Email Spam Filter | Text Classification | Build a Naive Bayes-based filter to distinguish spam from legitimate emails. | [Repository](https://github.com/jerinSabrina/email_spam_filter_using_naive_bayes) |
 | Digit Recognition with TensorFlow | Deep Learning | Train a neural network to recognize handwritten digits using TensorFlow. | [Repository](https://github.com/jerinSabrina/digits_recognition_using-tensorflow) |
@@ -44,6 +45,7 @@ ML_Projects/
 ├── README.md
 ├── .gitignore
 ├── projects/
+│   ├── ml-spam-message-classification/
 │   ├── titanic-survival-prediction/
 │   ├── email-spam-filter/
 │   ├── digit-recognition-tensorflow/
