@@ -19,20 +19,18 @@ Kaggle. It has different characteristics of cars — the make (the
 manufacturer), the model, the year, the engine type, the fuel type and other
 properties.
 
-![Car Features and MSRP dataset on Kaggle](images/01-car-price-intro-02-kaggle-dataset-crisp.jpg)
+![Car Features and MSRP dataset on Kaggle](regression/image/kaggle_car_data.png)
 
 The data explorer on Kaggle shows what is inside. Every row is one car, and
 every column is one characteristic of that car.
 
-![Kaggle data explorer showing the car dataset columns](images/01-car-price-intro-03-kaggle-data-explorer-crisp.jpg)
+![Kaggle data explorer showing the car dataset columns](regression/image/kaggle_car_data_2.png)
 
 One column is especially interesting for us: MSRP. It stands for
 Manufacturer Suggested Retail Price — in other words, the price of a car.
 This is exactly what we want to predict. The plan is to use all the other
 features — the make, the model, the year, the engine and so on — to predict
 this price.
-
-![The MSRP column contains the price of each car](images/01-car-price-intro-04-msrp-column-crisp.jpg)
 
 ## The project plan
 
