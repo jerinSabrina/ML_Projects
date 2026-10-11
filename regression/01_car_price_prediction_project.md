@@ -1,26 +1,20 @@
----
-video_url: "https://www.youtube.com/watch?v=vM3SqPNlStE&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=12"
-prev_url: ../01-intro/10-summary.md
-next_url: 02-data-preparation.md
----
 # Car price prediction project
-
-Session two is one hands-on project: we build a model that predicts the price
+We build a model that predicts the price
 of a car. In this first unit we look at the scenario, the dataset we will use,
 the plan for the project, and where the code and the data live.
 
 ## The scenario
 
-Remember the scenario from the introduction. A user wants to sell a car on an
+A user wants to sell a car on an
 online classified website, and the site asks them to enter a price. If they
 don't know how much the car is worth, they have to guess. We want to help:
-the user describes the car, and our model suggests the best price.
-
-![How can we help our user select the best price](images/01-car-price-intro-01-select-best-price-crisp.jpg)
+The user describes the car, and our model suggests the best price.
 
 ## The dataset
+This project is about the creation of a model for helping users to predict car prices. The dataset was obtained from [this 
+kaggle competition](https://www.kaggle.com/CooperUnion/cardataset).
 
-To train a model we need data, and we use a dataset with car prices from
+To train a model, we need data, and we use a dataset with car prices from
 Kaggle. It has different characteristics of cars — the make (the
 manufacturer), the model, the year, the engine type, the fuel type and other
 properties.
@@ -57,41 +51,3 @@ We will do the project in several steps:
 - Deal with numerical stability problems and see how to solve them with
   regularization.
 - Finally, use the model.
-
-
-## Where the code lives
-
-All the code for this project is available on GitHub, in the
-[mlbookcamp-code](https://github.com/alexeygrigorev/mlbookcamp-code) repo —
-this is the repository for the Machine Learning Bookcamp book. We need the
-chapter-02-car-price folder.
-
-![The mlbookcamp-code repository with chapter-02-car-price](images/01-car-price-intro-06-github-repo-crisp.jpg)
-
-The folder has two files. The first one is the notebook with all the code —
-it contains everything we will do in this session. The second one is
-data.csv, the actual dataset we will use for training the model. In this
-cohort we walk through the notebook lesson by lesson; for this module it is
-[notebook.ipynb](notebook.ipynb).
-
-![The notebook and the data file in chapter-02-car-price](images/01-car-price-intro-07-chapter-files-crisp.jpg)
-
-Next, we take the CSV file and do a bit of data preparation — that is the
-next lesson, [data preparation](02-data-preparation.md).
-
-## Notes
-
-This project is about the creation of a model for helping users to predict car prices. The dataset was obtained from [this 
-kaggle competition](https://www.kaggle.com/CooperUnion/cardataset).
-
-**Project plan:**
-
-* Prepare data and Exploratory data analysis (EDA)
-* Use linear regression for predicting price
-* Understanding the internals of linear regression 
-* Evaluating the model with RMSE
-* Feature engineering  
-* Regularization 
-* Using the model 
-
-The code and dataset are available at this [link](https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/chapter-02-car-price). 
