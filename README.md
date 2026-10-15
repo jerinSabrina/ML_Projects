@@ -1,6 +1,6 @@
 # ML_Projects
 
-A curated portfolio of machine learning projects focused on classification, prediction, and deep learning workflows.
+A portfolio of machine learning projects focused on classification, prediction, and deep learning workflows.
 
 This repository serves as a central hub for showcasing my work across supervised learning, clustering, and computer vision applications.
 
@@ -68,25 +68,5 @@ This repository is designed to:
 
 As a growing machine learning portfolio, this repository helps present a wide range of practical problem-solving skills, from classical ML models to modern neural networks and image analysis techniques.
 
-## Next Improvements
-
-Planned additions include:
-
-- project screenshots and demo outputs
-- performance summaries and metrics
-- technical notes and implementation details
-- architecture explanations for each workflow
-- project-specific badges and status indicators
-
-## Connect
-
-If you would like, I can also help with any of the following next:
-
-- add a polished project showcase section with screenshots
-- create a better folder structure inside each project directory
-- add instructions and setup guides for each project
-- convert this into a portfolio website-style README
-
----
 
 Built to keep all machine learning experiments organized, easy to browse, and portfolio-ready.
