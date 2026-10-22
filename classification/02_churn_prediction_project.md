@@ -25,9 +25,11 @@ For this project we use the
 [Telco Customer Churn dataset](https://www.kaggle.com/blastchar/telco-customer-churn)
 from Kaggle. It contains information about customers of a telecom
 company and whether they churned.
+Kaggle dataset overview: 
+classification/image/2_churn_data.png
 
 Each row is one customer. The columns describe:
-
+The dataset : classification/image/2_churn_data_kaggle.png
 - Customer ID
 - Demographics: gender, whether the customer is a senior citizen,
   whether they have a partner and dependents
