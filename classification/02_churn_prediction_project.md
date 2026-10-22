@@ -26,10 +26,10 @@ For this project we use the
 from Kaggle. It contains information about customers of a telecom
 company and whether they churned.
 Kaggle dataset overview: 
-classification/image/2_churn_data.png
+(image/2_churn_data.png)
 
 Each row is one customer. The columns describe:
-The dataset : classification/image/2_churn_data_kaggle.png
+The dataset : (image/2_churn_data_kaggle.png)
 - Customer ID
 - Demographics: gender, whether the customer is a senior citizen,
   whether they have a partner and dependents
