@@ -25,6 +25,7 @@ For this project we use the
 [Telco Customer Churn dataset](https://www.kaggle.com/blastchar/telco-customer-churn)
 from Kaggle. It contains information about customers of a telecom
 company and whether they churned.
+
 ![ Telco Churn dataset on Kaggle](image/2_churn_data.png)
 
 Each row is one customer. The columns describe:
@@ -38,7 +39,8 @@ Each row is one customer. The columns describe:
 - Charges: monthly and total charges
 - Tenure: the number of months the customer has stayed with the company
 - Churn: the target - whether the customer left
-![The  Telco dataset](image/2_churn_data_kaggle .png)
+- 
+![The  Telco dataset](image/2_churn_data_kaggle.png)
 The whole module walks through this project step by step: we prepare
 the data, set up a validation framework, do EDA and feature importance
 analysis, then train a logistic regression model and use it to score
