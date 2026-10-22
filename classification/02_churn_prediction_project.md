@@ -25,8 +25,7 @@ For this project we use the
 [Telco Customer Churn dataset](https://www.kaggle.com/blastchar/telco-customer-churn)
 from Kaggle. It contains information about customers of a telecom
 company and whether they churned.
-Kaggle dataset overview: 
-(image/2_churn_data.png)
+![ Churn dataset on Kaggle](image/2_churn_data.png)
 
 Each row is one customer. The columns describe:
 The dataset : (image/2_churn_data_kaggle.png)
